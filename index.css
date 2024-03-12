@@ -1139,6 +1139,14 @@ footer a:hover {
         gap: 15px;
     }
 }
+
+@media screen and (max-width: 900px) {
+    footer{
+        flex-direction: column;
+        text-align: center;
+        height: 300px;
+    }
+}
 @media screen and (max-width: 650px) {
     .qu {
         min-width: 350px !important;
